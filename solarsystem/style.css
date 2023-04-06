@@ -30,7 +30,7 @@ body{
     /*left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);*/
-    animation-duration: 10s;
+    /*animation-duration: 10s;*/
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
@@ -38,6 +38,8 @@ body{
 .mercury{
     background-color: #888;
     animation-name: mercury;
+    animation-duration: 0.24s;
+    animation-delay: 0s;
 }
 
 .ringM{
@@ -54,7 +56,8 @@ body{
 .venus{
     background-color: #ffc0cb;
     animation-name: venus;
-    animation-delay: 4s;
+    animation-duration: 0.6s;
+    animation-delay: 0s;
 }
 
 .ringV{
@@ -71,7 +74,8 @@ body{
 .earth{
     background-color: #00f;
     animation-name: earth;
-    animation-delay: 7s;
+    animation-duration: 1s;
+    animation-delay: 0s;
 }
 
 .ringE{
@@ -88,7 +92,8 @@ body{
 .mars{
     background-color: #f00;
     animation-name: mars;
-    animation-delay: 13s;
+    animation-duration: 1.88s;
+    animation-delay: 0s;
 }
 
 .ringMa{
@@ -105,7 +110,8 @@ body{
 .jupiter{
     background-color: #ffa500;
     animation-name: jupiter;
-    animation-delay: 15s;
+    animation-duration: 11.85s;
+    animation-delay: 0s;
 }
 
 .ringJ{
@@ -122,7 +128,8 @@ body{
 .saturn{
     background-color: #f0e68c;
     animation-name: saturn;
-    animation-delay: 18s;
+    animation-duration: 29.438s;
+    animation-delay: 0s;
 }
 
 .ringS{
@@ -139,7 +146,8 @@ body{
 .uranus{
     background-color: #add8e6;
     animation-name: uranus;
-    animation-delay: 26.5s;
+    animation-duration: 83.973s;
+    animation-delay: 0s;
 }
 
 .ringU{
@@ -156,12 +164,13 @@ body{
 .neptune{
     background-color: rgb(0, 174, 255);
     animation-name: neptune;
-    animation-delay: 29.5s;
+    animation-duration: 164.778s;
+    animation-delay: 0s;
 }
 
 .ringN{
-    width: 590px;
-    height: 590px;
+    width: 600px;
+    height: 600px;
     border-radius: 50%;
     left: 50%;
     top: 50%;
