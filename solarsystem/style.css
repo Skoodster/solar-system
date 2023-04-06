@@ -10,6 +10,9 @@ body{
     border-radius: 50%;
     background-color: #ff0;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -21,9 +24,12 @@ body{
     height: 20px;
     border-radius: 50%;
     position: absolute;
-    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
     animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -34,10 +40,32 @@ body{
     animation-name: mercury;
 }
 
+.ringM{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 2px dashed #fff;
+}
+
 .venus{
     background-color: #ffc0cb;
     animation-name: venus;
     animation-delay: 4s;
+}
+
+.ringV{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 2px dashed #fff;
 }
 
 .earth{
@@ -46,10 +74,32 @@ body{
     animation-delay: 7s;
 }
 
+.ringE{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 2px dashed #fff;
+}
+
 .mars{
     background-color: #f00;
     animation-name: mars;
     animation-delay: 13s;
+}
+
+.ringMa{
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 2px dashed #fff;
 }
 
 .jupiter{
@@ -58,10 +108,32 @@ body{
     animation-delay: 15s;
 }
 
+.ringJ{
+    width: 420px; /* nice */
+    height: 420px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 2px dashed #fff;
+}
+
 .saturn{
     background-color: #f0e68c;
     animation-name: saturn;
     animation-delay: 18s;
+}
+
+.ringS{
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 2px dashed #fff;
 }
 
 .uranus{
@@ -70,22 +142,45 @@ body{
     animation-delay: 26.5s;
 }
 
+.ringU{
+    width: 540px;
+    height: 540px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 2px dashed #fff;
+}
+
 .neptune{
     background-color: rgb(0, 174, 255);
     animation-name: neptune;
     animation-delay: 29.5s;
 }
-/*
+
+.ringN{
+    width: 590px;
+    height: 590px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 2px dashed #fff;
+}
+
 .ring{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     border: 2px dashed #fff;
     position: absolute;
-    top: -25px;
-    left: -25px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
 }
-*/
+
 @keyframes rotate{
     from{
         transform: rotate(0deg);
