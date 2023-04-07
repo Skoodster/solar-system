@@ -1,7 +1,7 @@
 # 2D solar-system
 css practice with a healthy serving of math
 
-![image](https://user-images.githubusercontent.com/121529529/230515518-0ff38d99-9dc3-486d-a1f7-5346eb4e1008.png)
+https://user-images.githubusercontent.com/121529529/230516003-9f6a8323-0845-4d18-99d9-1fedcf2e4ebc.mp4
 
 ----------------------------------------------------------------
 
@@ -33,7 +33,7 @@ Earth orbit duration = 1 second
 1 Earth year = 31,557,600 seconds
 Mars year ≈ 687 Earth days
 687 Earth days = 5.94 x 10^7 seconds
-((5.94 x 10^7 seconds)/(31.557.600)) * 1 = 1.88 seconds
+((5.94 x 10^7 seconds)/(31,557,600)) * 1 = 1.88 seconds
 Mars orbit duration = 1.88 seconds
 ```
 
